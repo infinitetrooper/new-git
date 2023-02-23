@@ -24,5 +24,13 @@ export default {
 		resetWidget("mailingListModal");
 		GetMarketingList.run();
 		closeModal("mailingListModal");
+	},
+	removeList: () => {
+		const a ="We have created a new list".concat(List_Name.text);
+		AddNewList.run();
+		showAlert(a,'success');
+		resetWidget("mailingListModal");
+		GetMarketingList.run();
+		closeModal("mailingListModal");
 	}
 }
