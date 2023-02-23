@@ -23,8 +23,7 @@ export default {
 		showAlert(a,'success');
 		resetWidget("mailingListModal");
 		GetMarketingList.run();
-		// The below line closes the modal.
-		closeModal("mailingListModal");
+		showAlert(a, 'Failure');
 	},
 	removeList: () => {
 		const a ="We have created a new list".concat(List_Name.text);
