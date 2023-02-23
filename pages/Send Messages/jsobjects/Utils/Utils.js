@@ -23,6 +23,7 @@ export default {
 		showAlert(a,'success');
 		resetWidget("mailingListModal");
 		GetMarketingList.run();
+		// The below line closes the modal.
 		closeModal("mailingListModal");
 	},
 	removeList: () => {
