@@ -22,7 +22,7 @@ export default {
 		showAlert(a,'success');
 		resetWidget("mailingListModal");
 		GetMarketingList.run();
-		showAlert(a, 'Failure');
+		return a;
 	},
 	removeList: () => {
 		const a ="We have created a new list".concat(List_Name.text);
