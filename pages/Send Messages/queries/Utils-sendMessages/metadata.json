@@ -21,7 +21,7 @@
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": true
+      "isAsync": false
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -32,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  if (DiscordSwitch.isSwitchedOn) {\n    DiscordAPI.run();\n    const successMessage1 = (\"Discord Message sent to \").concat(List1.selectedItem.Mailinglist).concat(\" server\");\n    showAlert(successMessage1, 'success');\n  }\n  if (EmailSwitch.isSwitchedOn) {\n    SendEmail.run();\n    const successMessage2 = (\"Email sent to users on \").concat(List1.selectedItem.Mailinglist).concat(\" list\");\n    showAlert(successMessage2, 'success');\n  }\n  resetWidget(\"MessageModal\");\n  closeModal(\"MessageModal\");\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

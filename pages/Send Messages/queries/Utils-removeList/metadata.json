@@ -32,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  const a = (\"We have created a new list\").concat(List_Name.text);\n  AddNewList.run();\n  showAlert(a, 'success');\n  resetWidget(\"mailingListModal\");\n  GetMarketingList.run();\n  closeModal(\"mailingListModal\");\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

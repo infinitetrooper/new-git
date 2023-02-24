@@ -32,9 +32,6 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  var nameArray = Table1.selectedRows.map(function (el) {\n    return el.CustomerEmailID;\n  });\n  return nameArray.toString();\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

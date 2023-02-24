@@ -10,8 +10,6 @@ export default {
 			const successMessage2 ="Email sent to users on ".concat(List1.selectedItem.Mailinglist).concat(" list") 
 			showAlert(successMessage2,'success');
 		}
-		resetWidget("MessageModal");
-		closeModal("MessageModal");
 	},
 	getEmails: () => {
 		var nameArray = Table1.selectedRows.map(function (el) { return el.CustomerEmailID; });
